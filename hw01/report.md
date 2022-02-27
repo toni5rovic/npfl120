@@ -83,9 +83,9 @@ Interesting results:
 
 | Genus   | Family        | The "weirdest" language | WALS code | ISO code | Similarity score |
 | ------- | ------------- | ----------------------- | --------- | -------- | ---------------- |
-|         | Indo-European | Romani (Sepecides)      | rse       |          | 1.3333           |
-|         | Niger-Congo   | Urhobo                  | urh       | urh      | 3.39487          |
-|         | Dravidian     | Gadaba (Kondekor)       | gdk       | gdb      | 0.24615          |
-| Slavic  |               | Bosnian                 | bos       | bos      | 0.25641          |
-| Romance |               | Moldavian               | mol       | ron      | 0.358974         |
-| Turkic  |               | Dolgan                  | dol       | dlg      | 0.6153846        |
+|         | Indo-European | Romani (Sepecides)      | rse       |          | 0.007575           |
+|         | Niger-Congo   | Urhobo                  | urh       | urh      | 0.010382          |
+|         | Dravidian     | Gadaba (Kondekor)       | gdk       | gdb      | 0.010702          |
+| Slavic  |               | Bosnian                 | bos       | bos      | 0.015083          |
+| Romance |               | Moldavian               | mol       | ron      | 0.014957         |
+| Turkic  |               | Dolgan                  | dol       | dlg      | 0.015009        |
