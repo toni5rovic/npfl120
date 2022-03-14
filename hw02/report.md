@@ -20,7 +20,7 @@ Firstly, I'll use the solution for the Assignment 1 to find the most similar lan
 
 The results are fairly expected - the top 3 most similar languages are Slavic languages, of which 2 are from the same group as Upper-Sorbian (Western-Slavic group). Their scores are the same since the number of features that are the equal is the same for all of these, it is 8.
 
-It's important to consider the orthography of these languages. Upper-Sorbian,Czech and Polish use Latin script, while Ukrainian uses Cyrillic. 
+It's important to consider the orthography of these languages. Upper-Sorbian, Czech and Polish use Latin script, while Ukrainian uses Cyrillic. 
 
 Therefore, the experiments with using UDPipe models will be using the following languages:
 - Polish
@@ -75,6 +75,14 @@ To see the values more clearly:
 
 The best scores for both sentence splitting and word tokenization are achieved when using Czech model trained on the Prague Dependency Treebank.
 
+A couple of more languages with their respective similar languages that have a tokenizer model in UDPipe:
+
+|Language|Tokenizer model|Words precision|Words Recall|Words F1|Sentences precision|Sentences recall|Sentences F1|
+|---|---|---|---|---|---|---|---|
+|Breton|French GSD|90.86%|93.43%|92.13%|94.60%|88.85%|91.64%
+|Bhojpuri|Hindi|99.92%|99.96%|99.94%|86.87%|88.58%|87.72%
+|Estonian|Finnish|99.28%|99.52%|99.40%|68.09%|73.96%|70.90%
+
 # Task 2
 
 **Training UDPipe tokenization model for Upper Sorbian**
@@ -104,4 +112,4 @@ Comparing the previous results with our trained model using `task2.bash hsb_ufal
 |English|99.28%|98.13%|98.70%|59.16%|76.73%|66.81%
 |**Upper Sorbian**|**99.07%**|**98.07%**|**98.57%**|**65.53%**|**73.84%**|**69.43%**
 
-The trained model performs better than Serbian and English model, but it is still worse than Czech and Polish. Important thing to note is that the training data has only 28 sentences and 460 tokens which is not enough to properly train the model.
+The trained model performs better than Serbian and English model, but it is still worse than Czech and Polish. Important thing to note is that the training data has only 28 sentences and 460 tokens which is not enough to properly train the model. It is very easy to overfit on such a small data so in order to improve the model we definitely need more annotated data.
