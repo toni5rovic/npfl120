@@ -113,3 +113,16 @@ Comparing the previous results with our trained model using `task2.bash hsb_ufal
 |**Upper Sorbian**|**99.07%**|**98.07%**|**98.57%**|**65.53%**|**73.84%**|**69.43%**
 
 The trained model performs better than Serbian and English model, but it is still worse than Czech and Polish. Important thing to note is that the training data has only 28 sentences and 460 tokens which is not enough to properly train the model. It is very easy to overfit on such a small data so in order to improve the model we definitely need more annotated data.
+
+Now let's use our trained model on Czech and Polish data:
+
+| UD Treebank | Word F1 using our model | Sentence F1 using our model | Word F1 using UDPipe model | Sentence F1 using UDPipe model |
+|-------------|-------------------------|-----------------------------|----------------------------|:------------------------------:|
+| Czech CAC   | 99.58%                  | 85.37%                      | **99.96%**                     |             **93.01%**             |
+| Czech PDT   | 97.35%                  | 65.93%                      | **99.93%**                     |             **93.36%**             |
+| Czech PUD   | 98.96%                  | 86.55%                      | **99.27%**                     |             **95.35%**             |
+| Polish LFG  | 97.31%                  | 86.40%                      | **99.87%**                     |             **98.25%**             |
+| Polish PDB  | 97.52%                  | 71.81%                      | **99.85%**                     |             **97.33%**             |
+| Polish PUD  | 98.46%                  | 80.34%                      | **99.77%**                     |             **96.13%**             |
+
+As expected, Polish and Czech own tokenizers work better.
