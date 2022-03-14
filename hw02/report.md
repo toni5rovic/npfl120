@@ -68,11 +68,40 @@ To see the values more clearly:
 |Tokenizer model|Words precision|Words Recall|Words F1|Sentences precision|Sentences recall|Sentences F1|
 |---|---|---|---|---|---|---|
 |Polish|99.26%|97.92%|98.59%|89.27%|92.13%|90.68%
-|Czech|99.55%|99.23%|99.39%|92.66%|93.26%|92.96%
+|Czech|**99.55%**|**99.23%**|**99.39%**|**92.66%**|**93.26%**|**92.96%**
 |Ukrainian|98.40%|96.43%|97.41%|61.34%|70.79%|65.72%
 |Serbian|95.89%|90.92%|93.34%|82.82%|72.71%|77.74%
 |English|99.28%|98.13%|98.70%|59.16%|76.73%|66.81%
 
 The best scores for both sentence splitting and word tokenization are achieved when using Czech model trained on the Prague Dependency Treebank.
 
+# Task 2
 
+**Training UDPipe tokenization model for Upper Sorbian**
+
+The model is trained using the following command:
+
+`udpipe --train --tagger=none --parser=none --tokenizer=epochs=10 upper_sorbian.udpipe < ~/tools/ud-treebanks-v2.5/UD_Upper_Sorbian-UFAL/hsb_ufal-ud-train.conllu`
+
+After 10 epochs of training, training accuracy of 99.98% is reached. 
+
+```console
+Evaluation of the Upper Sorbian tokenization using trained tokenizer model...
+Loading UDPipe model: done.
+Number of SpaceAfter=No features in gold data: 2063
+Tokenizer words - system: 10628, gold: 10736, precision: 99.07%, recall: 98.07%, f1: 98.57%
+Tokenizer sentences - system: 702, gold: 623, precision: 65.53%, recall: 73.84%, f1: 69.43%
+```
+
+Comparing the previous results with our trained model using `task2.bash hsb_ufal-ud-test.conllu`:
+
+|Tokenizer model|Words precision|Words Recall|Words F1|Sentences precision|Sentences recall|Sentences F1|
+|---|---|---|---|---|---|---|
+|Polish|99.26%|97.92%|98.59%|89.27%|92.13%|90.68%
+|Czech|99.55%|99.23%|99.39%|92.66%|93.26%|92.96%
+|Ukrainian|98.40%|96.43%|97.41%|61.34%|70.79%|65.72%
+|Serbian|95.89%|90.92%|93.34%|82.82%|72.71%|77.74%
+|English|99.28%|98.13%|98.70%|59.16%|76.73%|66.81%
+|**Upper Sorbian**|**99.07%**|**98.07%**|**98.57%**|**65.53%**|**73.84%**|**69.43%**
+
+The trained model performs better than Serbian and English model, but it is still worse than Czech and Polish. Important thing to note is that the training data has only 28 sentences and 460 tokens which is not enough to properly train the model.
