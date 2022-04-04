@@ -29,7 +29,7 @@ Training iterations: 5
 
 ## Base solution
 
-Using English as a source language.
+Using English as a source language. Using alignments from FastAlign, we just copy the PoS tags from the source tokens to the target tokens. In case no alignment exists for a given target token, nothing is done and value "_" stays.
 
 - Accuracy: 9.86%
 - Timestamp: 1649079157
