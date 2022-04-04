@@ -88,6 +88,10 @@ def write_sentence(sentence, sent_id):
     result.append('')
     return '\n'.join(result)
 
+# Takes the list of alignments and source sentences 
+# and find all source tokens aligned with the given target token.
+# Then, voting is done and the PoS tag with most votes wins.
+# If no alignments exist for a given target token, None is returned. 
 def vote(alignments, source_sentences, target_token_id):
     
     voting_scores = {}
@@ -116,6 +120,10 @@ def vote(alignments, source_sentences, target_token_id):
 
     return None
 
+# Does the PoS projection for the given target sentence, a list of 
+# source sentences and a list of alignments.
+# Depending on the constant default_NOUN, PoS tag "NOUN" can be assigned 
+# in cases when no PoS tag has been decided using the voting system.
 def pos_projection(source_sentences, target_sentence, alignments):
     tgt2src_alignments = (alignments[0][1], alignments[1][1], alignments[2][1])
     source_sentences = (source_sentence_en, source_sentence_ru, source_sentence_tr)
