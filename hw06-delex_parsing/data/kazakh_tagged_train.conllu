@@ -1,0 +1,640 @@
+# sent_id = sholpan.tagged.txt:1:0
+# text = Шолпан Сәрсенбайға шыққан жылы өзіндей жас келіншектермен аулақта кеңескенде: «Баласыз өмірдің қызығы жоқ қой», – деп аузымен ғана айтушы еді.
+1	Шолпан	_	ADV	_	_	24	nsubj	_	_
+2	Сәрсенбайға	_	ADV	_	_	3	obl	_	_
+3	шыққан	_	ADV	_	_	4	acl:relcl	_	_
+4	жылы	_	NOUN	_	_	24	obl	_	_
+5	өзіндей	_	VERB	_	_	7	nmod	_	_
+6	жас	_	ADJ	_	_	7	amod	_	_
+7	келіншектермен	_	NOUN	_	_	9	obl	_	_
+8	аулақта	_	VERB	_	_	9	obl	_	_
+9	кеңескенде	_	VERB	_	_	24	advcl	_	SpaceAfter=No
+10	:	_	PUNCT	_	_	9	punct	_	_
+11	«	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
+12-13	Баласыз	_	_	_	_	_	_	_	_
+12	бала	_	NOUN	_	_	14	nmod	_	_
+13	сыз	_	ADJ	_	_	12	case	_	_
+14	өмірдің	_	NOUN	_	_	15	nmod:poss	_	_
+15	қызығы	_	ADV	_	_	16	nsubj	_	_
+16-17	жоқ қой	_	_	_	_	_	_	_	SpaceAfter=No
+16	жоқ	_	VERB	_	_	21	ccomp	_	_
+17	қой	_	VERB	_	_	16	discourse	_	_
+18	»	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	,	_	PUNCT	_	_	16	punct	_	_
+20	–	_	PUNCT	_	_	16	punct	_	_
+21	деп	_	PRON	_	_	24	advcl	_	_
+22-23	аузымен ғана	_	_	_	_	_	_	_	_
+22	аузымен	_	VERB	_	_	24	obl	_	_
+23	ғана	_	ADV	_	_	22	advmod	_	_
+24	айтушы	_	NOUN	_	_	0	root	_	_
+25	еді	_	PUNCT	_	_	24	cop	_	SpaceAfter=No
+26	.	_	PUNCT	_	_	24	punct	_	_
+
+# sent_id = sholpan.tagged.txt:2:49
+# text = Мал орнына сатылып, жаны сүймеген жанға жар болатын қазақтың сансыз қыздарының ішінен әлдеқалай өзінің сүйгеніне тиген Шолпан шынында бастапқы жылы бала керек қылмады.
+1	Мал	_	PRON	_	_	2	nmod:poss	_	_
+2	орнына	_	PRON	_	_	3	obl	_	_
+3	сатылып	_	VERB	_	_	12	acl:relcl	_	SpaceAfter=No
+4	,	_	PUNCT	_	_	8	punct	_	_
+5	жаны	_	PUNCT	_	_	6	nsubj	_	_
+6	сүймеген	_	NOUN	_	_	7	acl:relcl	_	_
+7	жанға	_	NOUN	_	_	8	obl	_	_
+8	жар	_	ADP	_	_	3	conj	_	_
+9	болатын	_	NOUN	_	_	8	cop	_	_
+10	қазақтың	_	NOUN	_	_	12	nmod:poss	_	_
+11	сансыз	_	VERB	_	_	12	amod	_	_
+12	қыздарының	_	NOUN	_	_	13	nmod:poss	_	_
+13	ішінен	_	VERB	_	_	17	obl	_	_
+14	әлдеқалай	_	VERB	_	_	17	advmod	_	_
+15	өзінің	_	PRON	_	_	16	nsubj	_	_
+16	сүйгеніне	_	VERB	_	_	17	ccomp	_	_
+17	тиген	_	NOUN	_	_	18	acl:relcl	_	_
+18	Шолпан	_	NOUN	_	_	24	nsubj	_	_
+19	шынында	_	ADV	_	_	24	advmod	_	_
+20	бастапқы	_	VERB	_	_	21	amod	_	_
+21	жылы	_	ADP	_	_	24	obl	_	_
+22	бала	_	DET	_	_	24	obj	_	_
+23	керек	_	DET	_	_	24	dep	_	_
+24	қылмады	_	NOUN	_	_	0	root	_	SpaceAfter=No
+25	.	_	PUNCT	_	_	24	punct	_	_
+
+# sent_id = sholpan.tagged.txt:3:100
+# text = Ақ отаудың ішінде оңаша жатса да, яки күйеуін құшақтап жатса да, ол ылғи ішінен: «Жасаған-ау, бала бере көрме?!» – деп тілейтін еді.
+1	Ақ	_	NOUN	_	_	2	amod	_	_
+2	отаудың	_	NOUN	_	_	3	nmod:poss	_	_
+3	ішінде	_	ADP	_	_	5	obl	_	_
+4	оңаша	_	NOUN	_	_	5	advcl	_	_
+5	жатса	_	PUNCT	_	_	30	advcl	_	_
+6	да	_	ADV	_	_	11	cc	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	6	punct	_	_
+8	яки	_	PUNCT	_	_	11	cc	_	_
+9	күйеуін	_	NOUN	_	_	10	obj	_	_
+10	құшақтап	_	VERB	_	_	11	advcl	_	_
+11	жатса	_	PUNCT	_	_	5	conj	_	_
+12	да	_	CCONJ	_	_	11	cc	_	SpaceAfter=No
+13	,	_	PUNCT	_	_	11	punct	_	_
+14	ол	_	PRON	_	_	30	nsubj	_	_
+15	ылғи	_	VERB	_	_	30	advmod	_	_
+16	ішінен	_	VERB	_	_	30	nmod	_	SpaceAfter=No
+17	:	_	PUNCT	_	_	16	punct	_	_
+18	«	_	PUNCT	_	_	23	punct	_	SpaceAfter=No
+19-20	Жасаған-ау	_	_	_	_	_	_	_	SpaceAfter=No
+19	Жасаған	_	AUX	_	_	23	vocative	_	_
+20	ау	_	VERB	_	_	19	discourse	_	_
+21	,	_	VERB	_	_	19	punct	_	_
+22	бала	_	NOUN	_	_	23	obj	_	_
+23	бере	_	ADP	_	_	29	ccomp	_	_
+24	көрме	_	NOUN	_	_	23	aux	_	SpaceAfter=No
+25	?	_	PUNCT	_	_	23	punct	_	SpaceAfter=No
+26	!	_	PUNCT	_	_	23	punct	_	SpaceAfter=No
+27	»	_	PUNCT	_	_	23	punct	_	_
+28	–	_	PUNCT	_	_	23	punct	_	_
+29	деп	_	ADP	_	_	30	advcl	_	_
+30	тілейтін	_	NOUN	_	_	0	root	_	_
+31	еді	_	PUNCT	_	_	30	cop	_	SpaceAfter=No
+32	.	_	PUNCT	_	_	30	punct	_	_
+
+# sent_id = sholpan.tagged.txt:4:164
+# text = «Балалы болсам, әдемі өмірім бұзылады-ау», – деп ойлайтын еді Шолпан...
+1	«	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+2-3	Балалы	_	_	_	_	_	_	_	_
+2	бала	_	NOUN	_	_	8	advcl	_	_
+3	лы	_	VERB	_	_	2	case	_	_
+4	болсам	_	PRON	_	_	2	cop	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	2	punct	_	_
+6	әдемі	_	NOUN	_	_	7	amod	_	_
+7	өмірім	_	NOUN	_	_	8	nsubj	_	_
+8-9	бұзылады-ау	_	_	_	_	_	_	_	SpaceAfter=No
+8	бұз	_	VERB	_	_	13	ccomp	_	_
+9	ау	_	VERB	_	_	8	discourse	_	_
+10	»	_	PUNCT	_	_	8	punct	_	SpaceAfter=No
+11	,	_	PUNCT	_	_	8	punct	_	_
+12	–	_	PUNCT	_	_	8	punct	_	_
+13	деп	_	ADP	_	_	14	advcl	_	_
+14	ойлайтын	_	PRON	_	_	0	root	_	_
+15	еді	_	PUNCT	_	_	14	cop	_	_
+16	Шолпан	_	NOUN	_	_	14	nsubj	_	SpaceAfter=No
+17	...	_	PUNCT	_	_	14	punct	_	_
+
+# sent_id = sholpan.tagged.txt:5:197
+# text = Бала туса, күйеуімен екеуінің ортасында бір тікенек өсетіндей болушы еді...
+1	Бала	_	VERB	_	_	2	nsubj	_	_
+2	туса	_	VERB	_	_	9	advcl	_	SpaceAfter=No
+3	,	_	PUNCT	_	_	2	punct	_	_
+4	күйеуімен	_	NOUN	_	_	6	nmod	_	_
+5	екеуінің	_	NOUN	_	_	6	nmod:poss	_	_
+6	ортасында	_	PUNCT	_	_	9	obl	_	_
+7	бір	_	PUNCT	_	_	8	det	_	_
+8	тікенек	_	NOUN	_	_	9	nsubj	_	_
+9	өсетіндей	_	NOUN	_	_	0	root	_	_
+10	болушы	_	NOUN	_	_	9	cop	_	_
+11	еді	_	PUNCT	_	_	9	cop	_	SpaceAfter=No
+12	...	_	PUNCT	_	_	9	punct	_	_
+
+# sent_id = sholpan.tagged.txt:6:222
+# text = Қиюласып қосылған екі жанның арасына жат бір үшінші жан түскен соң, екеуінің де жалынды, екпінді махаббаты бүлінер, бәсеңдер, суынар деп қорқушы еді Шолпан.
+1	Қиюласып	_	VERB	_	_	2	advcl	_	_
+2	қосылған	_	VERB	_	_	4	acl:relcl	_	_
+3	екі	_	NUM	_	_	4	nummod	_	_
+4	жанның	_	ADJ	_	_	5	nmod:poss	_	_
+5	арасына	_	PUNCT	_	_	10	obl	_	_
+6	жат	_	NOUN	_	_	9	amod	_	_
+7	бір	_	DET	_	_	9	det	_	_
+8	үшінші	_	ADJ	_	_	9	amod	_	_
+9	жан	_	NOUN	_	_	10	nsubj	_	_
+10	түскен	_	NOUN	_	_	25	advcl	_	_
+11	соң	_	ADP	_	_	10	case	_	SpaceAfter=No
+12	,	_	DET	_	_	10	punct	_	_
+13-14	екеуінің де	_	_	_	_	_	_	_	_
+13	екеуінің	_	ADJ	_	_	20	nmod:poss	_	_
+14	де	_	PUNCT	_	_	13	advmod	_	_
+15-16	жалынды	_	_	_	_	_	_	_	SpaceAfter=No
+15	жалын	_	NOUN	_	_	20	nmod	_	_
+16	лы	_	NOUN	_	_	15	case	_	_
+17	,	_	PUNCT	_	_	18	punct	_	_
+18-19	екпінді	_	_	_	_	_	_	_	_
+18	екпін	_	NOUN	_	_	15	conj	_	_
+19	ді	_	VERB	_	_	18	case	_	_
+20	махаббаты	_	VERB	_	_	25	nsubj	_	_
+21	бүлінер	_	VERB	_	_	26	ccomp	_	SpaceAfter=No
+22	,	_	PUNCT	_	_	23	punct	_	_
+23	бәсеңдер	_	NOUN	_	_	21	conj	_	SpaceAfter=No
+24	,	_	PUNCT	_	_	25	punct	_	_
+25	суынар	_	NOUN	_	_	21	conj	_	_
+26	деп	_	ADP	_	_	27	advcl	_	_
+27	қорқушы	_	NOUN	_	_	0	root	_	_
+28	еді	_	PUNCT	_	_	27	cop	_	_
+29	Шолпан	_	NOUN	_	_	27	nsubj	_	SpaceAfter=No
+30	.	_	PUNCT	_	_	27	punct	_	_
+
+# sent_id = sholpan.tagged.txt:7:280
+# text = Ғашық адамға Құранның аяты қасиетті емес, жарының сөзі қасиетті, жарынан басқа адамның сөзін не қылсын Шолпан!
+1	Ғашық	_	NOUN	_	_	2	amod	_	_
+2	адамға	_	AUX	_	_	10	obl	_	_
+3	Құранның	_	VERB	_	_	4	nmod:poss	_	_
+4	аяты	_	NOUN	_	_	5	nsubj	_	_
+5	қасиетті	_	ADJ	_	_	0	root	_	_
+6	емес	_	CCONJ	_	_	5	cop	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	10	punct	_	_
+8	жарының	_	NOUN	_	_	9	nmod:poss	_	_
+9	сөзі	_	NOUN	_	_	10	nsubj	_	_
+10	қасиетті	_	ADJ	_	_	5	conj	_	SpaceAfter=No
+11	,	_	PUNCT	_	_	17	punct	_	_
+12	жарынан	_	VERB	_	_	14	nmod	_	_
+13	басқа	_	ADJ	_	_	12	case	_	_
+14	адамның	_	NOUN	_	_	15	nmod:poss	_	_
+15	сөзін	_	NOUN	_	_	17	obj	_	_
+16	не	_	ADP	_	_	17	xcomp	_	_
+17	қылсын	_	NOUN	_	_	10	parataxis	_	_
+18	Шолпан	_	NOUN	_	_	17	nsubj	_	SpaceAfter=No
+19	!	_	PUNCT	_	_	17	punct	_	_
+
+# sent_id = sholpan.tagged.txt:8:319
+# text = Бес жылдың ішінде үш баласы бар еді: екеуі ұл, біреуі қыз.
+1	Бес	_	PRON	_	_	2	nummod	_	_
+2	жылдың	_	PRON	_	_	3	nmod:poss	_	_
+3	ішінде	_	AUX	_	_	6	obl	_	_
+4	үш	_	NUM	_	_	5	nummod	_	_
+5	баласы	_	ADP	_	_	6	nsubj	_	_
+6	бар	_	ADP	_	_	0	root	_	_
+7	еді	_	PUNCT	_	_	6	cop	_	SpaceAfter=No
+8	:	_	PUNCT	_	_	10	punct	_	_
+9	екеуі	_	VERB	_	_	10	nsubj	_	_
+10	ұл	_	NOUN	_	_	6	parataxis	_	SpaceAfter=No
+11	,	_	PUNCT	_	_	10	punct	_	_
+12	біреуі	_	NOUN	_	_	13	nsubj	_	_
+13	қыз	_	NOUN	_	_	6	parataxis	_	SpaceAfter=No
+14	.	_	PUNCT	_	_	13	punct	_	_
+
+# sent_id = sholpan.tagged.txt:9:348
+# text = Дүниеде адамнан қиын жұмбақ жоқ.
+1	Дүниеде	_	VERB	_	_	5	obl	_	_
+2	адамнан	_	DET	_	_	3	obl	_	_
+3	қиын	_	ADJ	_	_	4	acl:relcl	_	_
+4	жұмбақ	_	NOUN	_	_	5	nsubj	_	_
+5	жоқ	_	NOUN	_	_	0	root	_	SpaceAfter=No
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = sholpan.tagged.txt:10:361
+# text = Адам – шешуі жоқ жұмбақ.
+1	Адам	_	INTJ	_	_	5	nsubj	_	_
+2	–	_	PUNCT	_	_	1	punct	_	_
+3	шешуі	_	NOUN	_	_	4	csubj	_	_
+4	жоқ	_	VERB	_	_	5	acl:relcl	_	_
+5	жұмбақ	_	NOUN	_	_	0	root	_	SpaceAfter=No
+6	.	_	PUNCT	_	_	5	punct	_	_
+
+# sent_id = sholpan.tagged.txt:11:374
+# text = Шешуі деп атауға болатын болса, адамның шешуі жалғыз өлім.
+1	Шешуі	_	ADV	_	_	3	xcomp	_	_
+2	деп	_	AUX	_	_	3	dep	_	_
+3	атауға	_	VERB	_	_	4	ccomp	_	_
+4	болатын	_	PUNCT	_	_	10	advcl	_	_
+5	болса	_	PUNCT	_	_	4	cop	_	SpaceAfter=No
+6	,	_	PUNCT	_	_	5	punct	_	_
+7	адамның	_	AUX	_	_	8	nmod:poss	_	_
+8	шешуі	_	ADJ	_	_	10	nsubj	_	_
+9	жалғыз	_	ADJ	_	_	10	amod	_	_
+10	өлім	_	NOUN	_	_	0	root	_	SpaceAfter=No
+11	.	_	PUNCT	_	_	10	punct	_	_
+
+# sent_id = sholpan.tagged.txt:12:397
+# text = Осы ойлар Шолпанның жанында таспиқтай тізілген ретті болмаса да, оның жаны соқыр сезіммен осы ойларға өзі барып тірелген еді, әм Шолпанның жүрек жарасын ешкімге сездірмеске тырысуының себебі осы еді.
+1	Осы	_	PRON	_	_	2	det	_	_
+2	ойлар	_	VERB	_	_	7	nsubj	_	_
+3	Шолпанның	_	VERB	_	_	4	nmod:poss	_	_
+4	жанында	_	VERB	_	_	7	obl	_	_
+5	таспиқтай	_	NOUN	_	_	6	obl	_	_
+6	тізілген	_	NOUN	_	_	7	advcl	_	_
+7-8	ретті	_	_	_	_	_	_	_	_
+7	рет	_	PART	_	_	20	advcl	_	_
+8	ті	_	NOUN	_	_	7	case	_	_
+9-10	болмаса да	_	_	_	_	_	_	_	SpaceAfter=No
+9	болмаса	_	PART	_	_	7	cop	_	_
+10	да	_	PART	_	_	7	advmod	_	_
+11	,	_	PUNCT	_	_	7	punct	_	_
+12	оның	_	PRON	_	_	13	nmod:poss	_	_
+13	жаны	_	PUNCT	_	_	20	nsubj	_	_
+14	соқыр	_	NOUN	_	_	15	amod	_	_
+15	сезіммен	_	NOUN	_	_	20	obl	_	_
+16	осы	_	DET	_	_	17	det	_	_
+17	ойларға	_	NOUN	_	_	20	obl	_	_
+18	өзі	_	ADP	_	_	19	nsubj	_	_
+19	барып	_	ADP	_	_	20	advcl	_	_
+20	тірелген	_	NOUN	_	_	0	root	_	_
+21	еді	_	PUNCT	_	_	20	cop	_	SpaceAfter=No
+22	,	_	PUNCT	_	_	31	punct	_	_
+23	әм	_	NOUN	_	_	31	cc	_	_
+24	Шолпанның	_	NOUN	_	_	29	nsubj	_	_
+25	жүрек	_	PUNCT	_	_	26	nmod:poss	_	_
+26	жарасын	_	PUNCT	_	_	28	obj	_	_
+27	ешкімге	_	NOUN	_	_	28	obl	_	_
+28	сездірмеске	_	NOUN	_	_	29	ccomp	_	_
+29	тырысуының	_	NOUN	_	_	30	acl	_	_
+30	себебі	_	AUX	_	_	31	nsubj	_	_
+31	осы	_	AUX	_	_	20	conj	_	_
+32	еді	_	PUNCT	_	_	31	cop	_	SpaceAfter=No
+33	.	_	PUNCT	_	_	31	punct	_	_
+
+# sent_id = sholpan.tagged.txt:13:462
+# text = Не керек, жақын, жаттың ортасында жалғыз болды.
+1	Не	_	PRON	_	_	2	nsubj	_	_
+2	керек	_	PRON	_	_	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	_	_	8	punct	_	_
+4	жақын	_	ADP	_	_	7	nmod:poss	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	6	punct	_	_
+6	жаттың	_	PUNCT	_	_	4	conj	_	_
+7	ортасында	_	ADJ	_	_	8	obl	_	_
+8	жалғыз	_	VERB	_	_	2	parataxis	_	_
+9	болды	_	NOUN	_	_	8	cop	_	SpaceAfter=No
+10	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = sholpan.tagged.txt:14:483
+# text = Бітеу жара болды, жалғыз өртенді, жалғыз жылады, дүниеден безді, сопы болды.
+1	Бітеу	_	PRON	_	_	2	amod	_	_
+2	жара	_	ADJ	_	_	0	root	_	_
+3	болды	_	VERB	_	_	2	cop	_	SpaceAfter=No
+4	,	_	PUNCT	_	_	6	punct	_	_
+5	жалғыз	_	PUNCT	_	_	6	advmod	_	_
+6	өртенді	_	NOUN	_	_	2	parataxis	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	6	punct	_	_
+8	жалғыз	_	PUNCT	_	_	9	advmod	_	_
+9	жылады	_	NOUN	_	_	2	parataxis	_	SpaceAfter=No
+10	,	_	PUNCT	_	_	12	punct	_	_
+11	дүниеден	_	NOUN	_	_	12	obl	_	_
+12	безді	_	NOUN	_	_	2	parataxis	_	SpaceAfter=No
+13	,	_	PUNCT	_	_	12	punct	_	_
+14	сопы	_	NOUN	_	_	2	parataxis	_	_
+15	болды	_	NOUN	_	_	14	cop	_	SpaceAfter=No
+16	.	_	PUNCT	_	_	14	punct	_	_
+
+# sent_id = sholpan.tagged.txt:15:516
+# text = Бала сұрады, қалай да бала болмады.
+1	Бала	_	VERB	_	_	2	obj	_	_
+2	сұрады	_	VERB	_	_	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	_	_	7	punct	_	_
+4	қалай	_	VERB	_	_	5	dep	_	_
+5	да	_	VERB	_	_	7	cc	_	_
+6	бала	_	NOUN	_	_	7	nsubj	_	_
+7	болмады	_	NOUN	_	_	2	conj	_	SpaceAfter=No
+8	.	_	PUNCT	_	_	7	punct	_	_
+
+# sent_id = sholpan.tagged.txt:16:533
+# text = Не істемеді Шолпан?!
+1	Не	_	NOUN	_	_	2	obj	_	_
+2	істемеді	_	NOUN	_	_	0	root	_	_
+3	Шолпан	_	PROPN	_	_	2	nsubj	_	SpaceAfter=No
+4	?	_	PUNCT	_	_	2	punct	_	SpaceAfter=No
+5	!	_	PUNCT	_	_	2	punct	_	_
+
+# sent_id = sholpan.tagged.txt:17:544
+# text = Пірәдар болды, әулиеге ат айтты, қорасанға қой айтты: «Жасаған-ау, бала бере гөр!» – деді.
+1	Пірәдар	_	NOUN	_	_	0	root	_	_
+2	болды	_	NOUN	_	_	1	cop	_	SpaceAfter=No
+3	,	_	PUNCT	_	_	6	punct	_	_
+4	әулиеге	_	VERB	_	_	6	obl	_	_
+5	ат	_	ADV	_	_	6	obj	_	_
+6	айтты	_	PUNCT	_	_	1	parataxis	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	6	punct	_	_
+8	қорасанға	_	VERB	_	_	10	obl	_	_
+9	қой	_	VERB	_	_	10	obj	_	_
+10	айтты	_	PUNCT	_	_	1	parataxis	_	SpaceAfter=No
+11	:	_	PUNCT	_	_	22	punct	_	_
+12	«	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
+13-14	Жасаған-ау	_	_	_	_	_	_	_	SpaceAfter=No
+13	Жасаған	_	PRON	_	_	17	vocative	_	_
+14	ау	_	VERB	_	_	13	discourse	_	_
+15	,	_	VERB	_	_	13	punct	_	_
+16	бала	_	NOUN	_	_	17	obj	_	_
+17	бере	_	PUNCT	_	_	22	ccomp	_	_
+18	гөр	_	PUNCT	_	_	17	aux	_	SpaceAfter=No
+19	!	_	PUNCT	_	_	17	punct	_	SpaceAfter=No
+20	»	_	PUNCT	_	_	17	punct	_	_
+21	–	_	PUNCT	_	_	17	punct	_	_
+22	деді	_	NOUN	_	_	1	parataxis	_	SpaceAfter=No
+23	.	_	PUNCT	_	_	22	punct	_	_
+
+# sent_id = sholpan.tagged.txt:18:590
+# text = Бірақ тілек іске аспай, аяғы жоқ жыр болды.
+1	Бірақ	_	CCONJ	_	_	4	cc	_	_
+2	тілек	_	NOUN	_	_	4	nsubj	_	_
+3	іске	_	DET	_	_	4	dep	_	_
+4	аспай	_	NOUN	_	_	8	advcl	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	4	punct	_	_
+6	аяғы	_	VERB	_	_	7	nsubj	_	_
+7	жоқ	_	PUNCT	_	_	8	acl:relcl	_	_
+8	жыр	_	NOUN	_	_	0	root	_	_
+9	болды	_	NOUN	_	_	8	cop	_	SpaceAfter=No
+10	.	_	PUNCT	_	_	8	punct	_	_
+
+# sent_id = sholpan.tagged.txt:19:611
+# text = Көл болып төгілген көздің жасы жерге сіңді, тілек тозды, өмір озды, Шолпан бала көтермеді.
+1	Көл	_	AUX	_	_	3	advcl	_	_
+2	болып	_	VERB	_	_	1	cop	_	_
+3	төгілген	_	NOUN	_	_	5	acl:relcl	_	_
+4	көздің	_	NOUN	_	_	5	nmod:poss	_	_
+5	жасы	_	ADJ	_	_	7	nsubj	_	_
+6	жерге	_	ADJ	_	_	7	obl	_	_
+7	сіңді	_	NOUN	_	_	0	root	_	SpaceAfter=No
+8	,	_	PUNCT	_	_	10	punct	_	_
+9	тілек	_	NOUN	_	_	10	nsubj	_	_
+10	тозды	_	NOUN	_	_	7	parataxis	_	SpaceAfter=No
+11	,	_	PUNCT	_	_	10	punct	_	_
+12	өмір	_	NOUN	_	_	13	nsubj	_	_
+13	озды	_	NOUN	_	_	7	parataxis	_	SpaceAfter=No
+14	,	_	PUNCT	_	_	17	punct	_	_
+15	Шолпан	_	NOUN	_	_	17	nsubj	_	_
+16	бала	_	NOUN	_	_	17	dep	_	_
+17	көтермеді	_	NOUN	_	_	7	parataxis	_	SpaceAfter=No
+18	.	_	PUNCT	_	_	17	punct	_	_
+
+# sent_id = sholpan.tagged.txt:20:648
+# text = Қанша жалынса да, қанша жыласа да Жасаған оған бала бермеді.
+1	Қанша	_	PRON	_	_	2	advmod	_	_
+2-3	жалынса да	_	_	_	_	_	_	_	SpaceAfter=No
+2	жалынса	_	VERB	_	_	11	advcl	_	_
+3	да	_	VERB	_	_	2	advmod	_	_
+4	,	_	PUNCT	_	_	6	punct	_	_
+5	қанша	_	NOUN	_	_	6	advmod	_	_
+6-7	жыласа да	_	_	_	_	_	_	_	_
+6	жыласа	_	NOUN	_	_	2	conj	_	_
+7	да	_	AUX	_	_	6	advmod	_	_
+8	Жасаған	_	AUX	_	_	11	nsubj	_	_
+9	оған	_	PRON	_	_	11	obl	_	_
+10	бала	_	NOUN	_	_	11	obj	_	_
+11	бермеді	_	NOUN	_	_	0	root	_	SpaceAfter=No
+12	.	_	PUNCT	_	_	11	punct	_	_
+
+# sent_id = sholpan.tagged.txt:21:671
+# text = Кім біледі, Тәңірінің Шолпанға бала бермеуі өзінше дұрыс шығар, өзінше жөн шығар.
+1	Кім	_	PRON	_	_	2	nsubj	_	_
+2	біледі	_	VERB	_	_	0	root	_	SpaceAfter=No
+3	,	_	PUNCT	_	_	9	punct	_	_
+4	Тәңірінің	_	VERB	_	_	7	nsubj	_	_
+5	Шолпанға	_	VERB	_	_	7	obl	_	_
+6	бала	_	NOUN	_	_	7	obj	_	_
+7	бермеуі	_	VERB	_	_	9	csubj	_	_
+8	өзінше	_	VERB	_	_	9	advmod	_	_
+9-10	дұрыс шығар	_	_	_	_	_	_	_	SpaceAfter=No
+9	дұрыс	_	ADP	_	_	2	parataxis	_	_
+10	шығар	_	ADP	_	_	9	discourse	_	_
+11	,	_	PUNCT	_	_	9	punct	_	_
+12	өзінше	_	PUNCT	_	_	13	advmod	_	_
+13-14	жөн шығар	_	_	_	_	_	_	_	SpaceAfter=No
+13	жөн	_	PART	_	_	2	parataxis	_	_
+14	шығар	_	NOUN	_	_	13	discourse	_	_
+15	.	_	PUNCT	_	_	13	punct	_	_
+
+# sent_id = sholpan.tagged.txt:22:700
+# text = Күнмен таласа Шолпан да өмірімен қоштасты.
+1	Күнмен	_	ADV	_	_	2	obl	_	_
+2	таласа	_	AUX	_	_	6	advcl	_	_
+3-4	Шолпан да	_	_	_	_	_	_	_	_
+3	Шолпан	_	NOUN	_	_	6	nsubj	_	_
+4	да	_	VERB	_	_	3	cc	_	_
+5	өмірімен	_	NOUN	_	_	6	obl	_	_
+6	қоштасты	_	NOUN	_	_	0	root	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Elizabeth-II.tagged.txt:1:0
+# text = II Елизавета ханшайым Виндзор әулетінен шыққан.
+1	II	_	PROPN	_	_	6	nsubj	_	_
+2	Елизавета	_	PUNCT	_	_	1	flat:name	_	_
+3	ханшайым	_	NOUN	_	_	1	flat:name	_	_
+4	Виндзор	_	NOUN	_	_	5	nmod:poss	_	_
+5	әулетінен	_	VERB	_	_	6	obl	_	_
+6	шыққан	_	NOUN	_	_	0	root	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Elizabeth-II.tagged.txt:2:14
+# text = Таққа 1952 жылдың 6 ақпанында, яғни 25 жасында, әкесі — VI Георгтың өлімінен кейін отырды.
+1	Таққа	_	ADJ	_	_	17	obl	_	_
+2	1952	_	NUM	_	_	3	amod	_	_
+3	жылдың	_	NOUN	_	_	5	nmod:poss	_	_
+4	6	_	NUM	_	_	5	amod	_	_
+5	ақпанында	_	NOUN	_	_	17	obl	_	SpaceAfter=No
+6	,	_	PUNCT	_	_	9	punct	_	_
+7	яғни	_	PUNCT	_	_	9	cc	_	_
+8	25	_	NUM	_	_	9	nummod	_	_
+9	жасында	_	NOUN	_	_	5	appos	_	SpaceAfter=No
+10	,	_	PUNCT	_	_	9	punct	_	_
+11	әкесі	_	NUM	_	_	15	nmod:poss	_	_
+12	—	_	PUNCT	_	_	13	punct	_	_
+13	VI	_	NOUN	_	_	11	appos	_	_
+14	Георгтың	_	NOUN	_	_	13	flat:name	_	_
+15	өлімінен	_	VERB	_	_	17	obl	_	_
+16	кейін	_	ADP	_	_	15	case	_	_
+17	отырды	_	NOUN	_	_	0	root	_	SpaceAfter=No
+18	.	_	PUNCT	_	_	17	punct	_	_
+
+# sent_id = Elizabeth-II.tagged.txt:3:51
+# text = II Елизавета — жасы бойынша Ұлыбритания тарихындағы ең жасы үлкен британ (ағылшын) монархы.
+1	II	_	PROPN	_	_	15	nsubj	_	_
+2	Елизавета	_	PUNCT	_	_	1	flat:name	_	_
+3	—	_	PUNCT	_	_	2	punct	_	_
+4	жасы	_	ADJ	_	_	10	obl	_	_
+5	бойынша	_	NOUN	_	_	4	case	_	_
+6	Ұлыбритания	_	VERB	_	_	7	nmod:poss	_	_
+7	тарихындағы	_	VERB	_	_	10	obl	_	_
+8	ең	_	DET	_	_	10	advmod	_	_
+9	жасы	_	ADP	_	_	10	nsubj	_	_
+10	үлкен	_	ADJ	_	_	15	acl:relcl	_	_
+11	британ	_	NOUN	_	_	15	amod	_	_
+12	(	_	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	ағылшын	_	VERB	_	_	11	appos	_	SpaceAfter=No
+14	)	_	DET	_	_	13	punct	_	_
+15	монархы	_	NOUN	_	_	0	root	_	SpaceAfter=No
+16	.	_	PUNCT	_	_	15	punct	_	_
+
+# sent_id = Elizabeth-II.tagged.txt:4:84
+# text = 2015 жылдың 24 қаңтарындағы Сауд Арабиясының патшасы — Абдулла ибн Абдул Азиз ас-Саудтың өлімінен кейін билік басындағы ең кәрі монарх болып саналады.
+1	2015	_	NUM	_	_	2	amod	_	_
+2	жылдың	_	NOUN	_	_	4	nmod:poss	_	_
+3	24	_	NUM	_	_	4	amod	_	_
+4	қаңтарындағы	_	PROPN	_	_	14	nmod	_	_
+5	Сауд	_	PROPN	_	_	7	nmod:poss	_	_
+6	Арабиясының	_	VERB	_	_	5	flat:name	_	_
+7	патшасы	_	NOUN	_	_	14	nmod:poss	_	_
+8	—	_	PUNCT	_	_	9	punct	_	_
+9	Абдулла	_	NOUN	_	_	7	appos	_	_
+10	ибн	_	NOUN	_	_	9	flat:name	_	_
+11	Абдул	_	PROPN	_	_	9	flat:name	_	_
+12	Азиз	_	VERB	_	_	9	flat:name	_	_
+13	ас-Саудтың	_	VERB	_	_	9	flat:name	_	_
+14	өлімінен	_	VERB	_	_	22	obl	_	_
+15	кейін	_	ADP	_	_	14	case	_	_
+16	билік	_	VERB	_	_	17	nmod:poss	_	_
+17	басындағы	_	NOUN	_	_	20	obl	_	_
+18	ең	_	DET	_	_	19	advmod	_	_
+19	кәрі	_	NOUN	_	_	20	amod	_	_
+20	монарх	_	NOUN	_	_	22	xcomp	_	_
+21	болып	_	ADP	_	_	22	dep	_	_
+22	саналады	_	NOUN	_	_	0	root	_	SpaceAfter=No
+23	.	_	PUNCT	_	_	22	punct	_	_
+
+# sent_id = Elizabeth-II.tagged.txt:5:131
+# text = Елизавета ханшайым Александра Мария Лондонның Мейфэр ауданында, Брютон-стриттегі № 17-үйде, яғни Стратмор графының резиденциясында дүниеге келген.
+1	Елизавета	_	PUNCT	_	_	20	nsubj	_	_
+2	ханшайым	_	ADJ	_	_	1	flat:name	_	_
+3	Александра	_	PROPN	_	_	1	flat:name	_	_
+4	Мария	_	NOUN	_	_	1	flat:name	_	_
+5	Лондонның	_	PROPN	_	_	7	nmod:poss	_	_
+6	Мейфэр	_	PROPN	_	_	20	obl	_	_
+7	ауданында	_	NOUN	_	_	6	flat:name	_	SpaceAfter=No
+8	,	_	PUNCT	_	_	13	punct	_	_
+9	Брютон-стриттегі	_	PROPN	_	_	13	nmod	_	_
+10	№	_	SYM	_	_	13	nmod	_	_
+11	17	_	NUM	_	_	10	amod	_	SpaceAfter=No
+12	-	_	NOUN	_	_	11	punct	_	SpaceAfter=No
+13	үйде	_	PUNCT	_	_	7	conj	_	SpaceAfter=No
+14	,	_	PUNCT	_	_	18	punct	_	_
+15	яғни	_	PUNCT	_	_	18	cc	_	_
+16	Стратмор	_	NOUN	_	_	18	nmod:poss	_	_
+17	графының	_	NOUN	_	_	16	flat:name	_	_
+18	резиденциясында	_	DET	_	_	13	appos	_	_
+19	дүниеге	_	VERB	_	_	20	dep	_	_
+20	келген	_	NOUN	_	_	0	root	_	SpaceAfter=No
+21	.	_	PUNCT	_	_	20	punct	_	_
+
+# sent_id = Elizabeth-II.tagged.txt:6:174
+# text = Қазіргі таңда аудан қайта тұрғызылғандықтан, үйді бұзған, алайда оның орнында мемориалдық тақта қойылған.
+1	Қазіргі	_	PROPN	_	_	2	amod	_	_
+2	таңда	_	NOUN	_	_	5	obl	_	_
+3	аудан	_	NOUN	_	_	5	nsubj	_	_
+4	қайта	_	VERB	_	_	5	advmod	_	_
+5	тұрғызылғандықтан	_	NOUN	_	_	8	advcl	_	SpaceAfter=No
+6	,	_	PUNCT	_	_	5	punct	_	_
+7	үйді	_	NOUN	_	_	8	obj	_	_
+8	бұзған	_	NOUN	_	_	0	root	_	SpaceAfter=No
+9	,	_	CCONJ	_	_	15	punct	_	_
+10	алайда	_	CCONJ	_	_	15	cc	_	_
+11	оның	_	PRON	_	_	12	nmod:poss	_	_
+12	орнында	_	PUNCT	_	_	15	obl	_	_
+13	мемориалдық	_	NOUN	_	_	14	amod	_	_
+14	тақта	_	AUX	_	_	15	nsubj	_	_
+15	қойылған	_	NOUN	_	_	8	conj	_	SpaceAfter=No
+16	.	_	PUNCT	_	_	15	punct	_	_
+
+# sent_id = Elizabeth-II.tagged.txt:7:207
+# text = Өзінің атын анасының (Елизавета), апасының (Мария) және арғы әжесінің (Александра) құрметіне алған.
+1	Өзінің	_	PRON	_	_	2	nmod:poss	_	_
+2	атын	_	ADJ	_	_	19	obj	_	_
+3	анасының	_	NOUN	_	_	18	nmod:poss	_	_
+4	(	_	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Елизавета	_	PUNCT	_	_	3	appos	_	SpaceAfter=No
+6	)	_	PRON	_	_	5	punct	_	SpaceAfter=No
+7	,	_	PUNCT	_	_	8	punct	_	_
+8	апасының	_	VERB	_	_	3	conj	_	_
+9	(	_	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Мария	_	NOUN	_	_	8	appos	_	SpaceAfter=No
+11	)	_	DET	_	_	10	punct	_	_
+12	және	_	CCONJ	_	_	14	cc	_	_
+13	арғы	_	NOUN	_	_	14	amod	_	_
+14	әжесінің	_	NOUN	_	_	3	conj	_	_
+15	(	_	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Александра	_	PROPN	_	_	14	appos	_	SpaceAfter=No
+17	)	_	PUNCT	_	_	16	punct	_	_
+18	құрметіне	_	NOUN	_	_	19	obl	_	_
+19	алған	_	NOUN	_	_	0	root	_	SpaceAfter=No
+20	.	_	PUNCT	_	_	19	punct	_	_
+
+# sent_id = Elizabeth-II.tagged.txt:8:248
+# text = Туған күнінен бастап Елизавета ханшайым Йорктің герцогиниясы атанып, ағасы-Эдуард Уэльс ханзадасы (келешек Ұлыбритания королі — VIII Эдуард) мен әкесінен кейін үшінші мұрагер болды.
+1	Туған	_	VERB	_	_	2	acl:relcl	_	_
+2	күнінен	_	VERB	_	_	3	obl	_	_
+3	бастап	_	ADP	_	_	8	advcl	_	_
+4	Елизавета	_	PUNCT	_	_	18	nsubj	_	_
+5	ханшайым	_	ADJ	_	_	4	flat:name	_	_
+6	Йорктің	_	ADJ	_	_	7	nmod:poss	_	_
+7	герцогиниясы	_	NOUN	_	_	8	xcomp	_	_
+8	атанып	_	NOUN	_	_	0	root	_	SpaceAfter=No
+9	,	_	PUNCT	_	_	10	punct	_	_
+10	ағасы	_	ADV	_	_	27	obl	_	SpaceAfter=No
+11	-	_	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	Эдуард	_	NOUN	_	_	10	appos	_	_
+13	Уэльс	_	NOUN	_	_	14	nmod:poss	_	_
+14	ханзадасы	_	ADP	_	_	12	flat:name	_	_
+15	(	_	PUNCT	_	_	18	punct	_	SpaceAfter=No
+16	келешек	_	PUNCT	_	_	18	amod	_	_
+17	Ұлыбритания	_	NOUN	_	_	18	nmod:poss	_	_
+18	королі	_	NOUN	_	_	10	appos	_	_
+19	—	_	PUNCT	_	_	18	punct	_	_
+20	VIII	_	NOUN	_	_	10	appos	_	_
+21	Эдуард	_	NOUN	_	_	20	flat:name	_	SpaceAfter=No
+22	)	_	DET	_	_	18	punct	_	_
+23	мен	_	CCONJ	_	_	24	cc	_	_
+24	әкесінен	_	NOUN	_	_	10	conj	_	_
+25	кейін	_	ADP	_	_	24	case	_	_
+26	үшінші	_	ADJ	_	_	27	amod	_	_
+27	мұрагер	_	NOUN	_	_	8	conj	_	_
+28	болды	_	PUNCT	_	_	27	cop	_	SpaceAfter=No
+29	.	_	PUNCT	_	_	27	punct	_	_
+
+# sent_id = Elizabeth-II.tagged.txt:9:307
+# text = Эдуард ханзада айтарлықтай жас, әрі жанұя құрып, балалы болуға тиіс болғандықтан, бастапқы кезде Елизавета таққа отыратын үміткер ретінде қарастырылмады.
+1	Эдуард	_	VERB	_	_	13	nsubj	_	_
+2	ханзада	_	ADP	_	_	1	flat:name	_	_
+3	айтарлықтай	_	ADJ	_	_	4	advcl	_	_
+4	жас	_	ADJ	_	_	23	advcl	_	SpaceAfter=No
+5	,	_	PUNCT	_	_	13	punct	_	_
+6	әрі	_	CCONJ	_	_	13	cc	_	_
+7	жанұя	_	NOUN	_	_	8	obj	_	_
+8	құрып	_	NOUN	_	_	13	advcl	_	SpaceAfter=No
+9	,	_	PUNCT	_	_	10	punct	_	_
+10-11	балалы	_	_	_	_	_	_	_	_
+10	бала	_	NOUN	_	_	8	conj	_	_
+11	лы	_	NOUN	_	_	10	case	_	_
+12	болуға	_	ADP	_	_	10	cop	_	_
+13	тиіс	_	ADP	_	_	4	conj	_	_
+14	болғандықтан	_	PUNCT	_	_	13	cop	_	SpaceAfter=No
+15	,	_	PUNCT	_	_	13	punct	_	_
+16	бастапқы	_	VERB	_	_	17	amod	_	_
+17	кезде	_	ADV	_	_	23	obl	_	_
+18	Елизавета	_	PUNCT	_	_	23	nsubj	_	_
+19	таққа	_	NOUN	_	_	20	obl	_	_
+20	отыратын	_	DET	_	_	21	acl:relcl	_	_
+21	үміткер	_	NOUN	_	_	23	obl	_	_
+22	ретінде	_	ADP	_	_	21	case	_	_
+23	қарастырылмады	_	PUNCT	_	_	0	root	_	SpaceAfter=No
+24	.	_	PUNCT	_	_	23	punct	_	_
+
