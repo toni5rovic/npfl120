@@ -9,13 +9,12 @@ Antonije Petrović
 - use new treebanks
 - use new UDPipe models
 - train a delexicalized parser on a source language treebank
-- apply it to my cross-lingually-POS-tagged target-language data
+- apply it to cross-lingually-POS-tagged target-language data
 - report parsing accuracies (LAS, UAS)
-
 
 # Report 
 
-First, Turkish delexicalized parser model is trained on the UD training data for Turksih language.
+First, Turkish delexicalized parser model is trained on the UD training data for Turkish language.
 - Script: [train_turkish.sh](./train_turkish.sh)
 - Parameters: `embedding_form=0;embedding_feats=0;iterations=5`
 
@@ -50,5 +49,6 @@ Then, 3 different approaches are taken and their results are compared.
 
 # Conclusion
 
-- Using UDPipe Turkish model instead of training our own doesn't help. This is expected since the UDPipe model probably uses lexical data along with other features. While in our case, we create the delexicalized model which is trained without looking at the word forms. In some other language pair, we could expect usual model to be better, but in the case of Turkish-Kazakh pair it is impossible to have the same word forms or even morphemes because the scripts used in these two languages are different.
-- The 3rd approach is the best. Using Turkish trained parser to parse Kazakh data first and then use it for training Kazakh's own model helps a lot. The accuracy that we get in this case is much higher than in the previous two approaches.
+Using UDPipe Turkish model instead of training our own doesn't help. This is expected since the UDPipe model probably uses lexical data along with other features. While in our case, we create the delexicalized model which is trained without looking at the word forms. In some other language pair, we could expect usual model to be better, but in the case of Turkish-Kazakh pair it is impossible to have the same word forms or even morphemes because the scripts used in these two languages are different (cyrillic vs. latin).
+
+The 3rd approach is the best. Using Turkish trained parser to parse Kazakh data first and then use it for training Kazakh's own model helps a lot. The accuracy that we get in this case is much higher than in the previous two approaches.
